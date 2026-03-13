@@ -1,0 +1,133 @@
+/**
+ * Onexus Turnstile Security Styles
+ * Company: OnexusDev
+ * Author: Moursalin Islam
+ */
+
+.onexus-turnstile-container {
+    margin: 15px 0;
+    clear: both;
+}
+
+.onexus-turnstile-widget {
+    display: inline-block;
+    min-height: 65px;
+}
+
+.onexus-turnstile-noscript {
+    padding: 10px;
+    background: #f8d7da;
+    border: 1px solid #f5c6cb;
+    border-radius: 4px;
+    color: #721c24;
+}
+
+/* Theme variations */
+.onexus-turnstile-theme-light .onexus-turnstile-widget {
+    background: #ffffff;
+}
+
+.onexus-turnstile-theme-dark .onexus-turnstile-widget {
+    background: #1a1a1a;
+}
+
+/* Size variations */
+.onexus-turnstile-size-normal .onexus-turnstile-widget {
+    width: 300px;
+}
+
+.onexus-turnstile-size-compact .onexus-turnstile-widget {
+    width: 150px;
+}
+
+/* Admin styles */
+.onexus-turnstile-admin-wrap {
+    max-width: 1200px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.onexus-turnstile-admin-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #f0f0f0;
+}
+
+.onexus-turnstile-logo h2 {
+    color: #0073aa;
+    margin: 0 0 10px 0;
+    font-size: 24px;
+}
+
+.onexus-turnstile-logo p {
+    color: #666;
+    margin: 0;
+    font-size: 14px;
+}
+
+.onexus-turnstile-settings-form {
+    background: #f9f9f9;
+    padding: 25px;
+    border-radius: 6px;
+}
+
+.onexus-turnstile-field {
+    width: 100%;
+    max-width: 400px;
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.onexus-turnstile-admin-footer {
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+    text-align: center;
+    color: #666;
+}
+
+.onexus-turnstile-admin-footer a {
+    color: #0073aa;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.onexus-turnstile-admin-footer a:hover {
+    color: #00a0d2;
+    text-decoration: underline;
+}
+
+/* Form specific styles */
+#loginform .onexus-turnstile-container,
+#registerform .onexus-turnstile-container,
+#lostpasswordform .onexus-turnstile-container {
+    margin: 20px 0;
+}
+
+.woocommerce form .onexus-turnstile-container {
+    margin: 15px 0;
+    padding: 10px 0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .onexus-turnstile-admin-header {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .onexus-turnstile-docs {
+        margin-top: 15px;
+    }
+    
+    .onexus-turnstile-size-normal .onexus-turnstile-widget {
+        width: 100%;
+    }
+}
