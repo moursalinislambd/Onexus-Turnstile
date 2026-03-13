@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Onexus Turnstile
- * Plugin URI: {i will add later}
+ * Plugin URI: https://github.com/moursalinislambd/Onexus-Turnstile/
  * Description: Cloudflare Turnstile protection for WordPress
  * Version: 1.0.1
  * Author: Moursalin Islam
